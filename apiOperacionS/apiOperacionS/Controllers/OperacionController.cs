@@ -13,15 +13,15 @@ namespace apiOperacionS.Controllers
         {
             if(id<0)
             {
-                return "Numero" + id.ToString() + ", Mensaje: Error"; 
+                return "Numero:" + id.ToString() + ", Mensaje: Error"; 
                 
             }
             if(id ==0)
             {
-                return "Numero" + id.ToString() + ", Mensaje: Realizado por Adriana Salmon Sahonero";
+                return "Numero:" + id.ToString() + ", Mensaje: Realizado por Adriana Salmon Sahonero";
 
             }
-            return "Numero" + id.ToString() + ", Mensaje:"+ "  https://image.freepik.com/vector-gratis/numeros-cartel-imagen_1639-6453.jpg ";
+            return "Numero:" + id.ToString() + ", Mensaje:" + "  https://image.freepik.com/vector-gratis/numeros-cartel-imagen_1639-6453.jpg ";
         }
     }
 }
